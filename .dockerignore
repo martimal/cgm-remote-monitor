@@ -18,15 +18,4 @@ coverage/
 npm-debug.log
 version: '3.7'
 
-services:
-  nightscout-libre-link:
-    image: timoschlueter/nightscout-librelink-up
-    container_name: nightscout-libre-link
-    environment:
-      LINK_UP_USERNAME: "mmmarcin49@gmail.com"
-      LINK_UP_PASSWORD: "DonSensor23@#"
-      LINK_UP_TIME_INTERVAL: "5"
-      LINK_UP_REGION: "DE"
-      NIGHTSCOUT_URL: "nightscout.monitormarti1.com"
-      NIGHTSCOUT_API_TOKEN: "librelinku-123456789abcde"
-      LOG_LEVEL: "info"
+
