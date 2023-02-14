@@ -16,6 +16,3 @@ static/bower_components/
 /iisnode
 coverage/
 npm-debug.log
-version: '3.7'
-
-
